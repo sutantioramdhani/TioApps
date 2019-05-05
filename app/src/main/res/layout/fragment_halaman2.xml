@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Halaman1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/clearchill">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily Activity"
+            android:textSize="40dp"
+            android:textColor="@color/putih1"/>
+        <ImageView
+            android:id="@+id/pp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/cl"/>
+        <TextView
+            android:id="@+id/ii"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wk_da"
+            android:textSize="20dp"
+            android:textColor="@color/putih1"
+            android:layout_below="@id/pp"
+            android:layout_margin="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Swipe For Next"
+            android:textColor="@color/putih1"
+            android:textSize="15dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="30dp"
+            android:layout_alignParentBottom="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Swipe For Previous"
+            android:textColor="@color/putih1"
+            android:textSize="15dp"
+            android:layout_alignParentStart="true"
+            android:layout_margin="30dp"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout> />
+
+</FrameLayout>

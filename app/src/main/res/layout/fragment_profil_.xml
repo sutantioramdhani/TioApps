@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profil_Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/RV1"
+            android:background="@drawable/logopit_1556949779367"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/gambulsplash2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/img20181112122538"
+            android:background="@drawable/bgsplashfoto"/>
+
+        <TextView
+            android:id="@+id/info1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nama_profil"
+            android:gravity="center"
+            android:textColor="@color/putih1"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/gambulsplash2"/>
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/imgbutton_FB"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/facebook"
+            android:tint="@color/putih1"
+            android:background="@drawable/bgsplashfoto"
+            android:backgroundTint="@color/birutua"
+            android:layout_below="@+id/RV1"
+            android:layout_marginEnd="20dp"
+            android:layout_alignParentEnd="true"/>
+
+        <ImageButton
+            android:id="@+id/imgbutton_Email"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/email"
+            android:tint="@color/putih1"
+            android:backgroundTint="@color/clearchill"
+            android:background="@drawable/bgsplashfoto"
+            android:layout_below="@id/RV1"
+            android:layout_toStartOf="@id/imgbutton_FB"
+            />
+        <ImageButton
+            android:id="@+id/imgButton_phone"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/phone_contact"
+            android:tint="@color/putih1"
+            android:backgroundTint="@color/spirodiscoball"
+            android:background="@drawable/bgsplashfoto"
+            android:layout_below="@id/RV1"
+            android:layout_toStartOf="@id/imgbutton_Email"/>
+
+        <ImageButton
+            android:id="@+id/imgButton_search"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/search"
+            android:tint="@color/putih1"
+            android:backgroundTint="@color/ungu"
+            android:background="@drawable/bgsplashfoto"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginEnd="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about"
+            android:gravity="center"
+            android:background="@drawable/garis_korner"
+            android:layout_margin="30dp"
+            android:layout_below="@id/imgButton_phone"/>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Tio Apps</string>
+    <string name="title_activity_home">Home</string>
+    <string name="nama_profil">Nama     : Sutantio Ramdhani\nUmur     : 21 Tahun\nJurusan  : Teknik Informatika</string>
+    <string name="interest">hobi saya ada banyak sekali seperti futsal, main game, touring, </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about">Aplikasi Pertama saya yaitu aplikasi tentang saya untuk pertama kali memang Masih Banyak Kekurangan yang Harus di benahi,tapi untuk keseluruhan saya cukup puas untuk hasil saya sendiri walaupun tidak sebagus aplikasi yang lain saya bangga dengan hasil saya </string>
+    <string name="title_activity_mvf">MVF</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_walkthroug">Walkthroug</string>
+    <string name="wK_profile">di halaman Profile kita bisa melihat profile dan bisa juga mendapatkan kontak pembuat apk ini</string>
+    <string name="wk_da">di halaman Daily Activity kita bisa melihat List Friend dan List Keseharian saya</string>
+    <string name="wk_gallery">di halaman Galery kita bisa melihat koleksi foto saya</string>
+</resources>
