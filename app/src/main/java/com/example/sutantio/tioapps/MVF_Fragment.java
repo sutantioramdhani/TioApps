@@ -31,7 +31,7 @@ public class MVF_Fragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_mvf_, container, false);
+        View view = inflater.inflate(R.layout.activity_mvf, container, false);
 
 return view;
 

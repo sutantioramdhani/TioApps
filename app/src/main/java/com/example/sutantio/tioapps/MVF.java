@@ -114,6 +114,5 @@ public class MVF extends AppCompatActivity implements Toolbar.OnCreateContextMen
             // Show 2 total pages.
             return 2;
         }
-
     }
 }
