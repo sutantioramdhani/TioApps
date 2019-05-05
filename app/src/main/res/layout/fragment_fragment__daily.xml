@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_Daily">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/RL_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/LT_TV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List Teman"
+            android:textSize="20dp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/RecyclerView_Friend"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/LT_TV"/>
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:background="@color/abu3"
+            android:layout_below="@id/RL_1">
+            <TextView
+                android:id="@+id/LK_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="List Kegiatan"
+                android:textSize="20dp"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/RecyclerView_Kegiatan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/LK_TV"></android.support.v7.widget.RecyclerView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</FrameLayout>
